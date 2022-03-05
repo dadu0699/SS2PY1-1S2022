@@ -15,12 +15,11 @@ GO
 --CREATION OF TABLES
 ----Compra TABLE
 CREATE TABLE Compra (
-  idCompra INT IDENTITY (1,1) NOT NULL,
-  fecha DATE,
+  fecha VARCHAR(100) NULL,
   codProveedor VARCHAR(100) NULL,
   nombreProveedor VARCHAR(100) NULL,
   direccionProveedor VARCHAR(150) NULL,
-  numeroProveedor INT NULL,
+  numeroProveedor VARCHAR(100) NULL,
   webProveedor VARCHAR(150) NULL,
   codProducto VARCHAR(100) NULL,
   nombreProducto VARCHAR(100) NULL,
@@ -32,21 +31,19 @@ CREATE TABLE Compra (
   region VARCHAR(100) NULL,
   departamento VARCHAR(100) NULL,
   unidades VARCHAR(100) NULL,
-  costoU DECIMAL (6,2) NULL,
-	PRIMARY KEY (idCompra)
+  costoU VARCHAR(100) NULL
 );
 ----Ventas TABLE
 CREATE TABLE Venta (
-  idVenta INT IDENTITY (1,1) NOT NULL,
-  fecha DATE NULL,
+  fecha VARCHAR(100) NULL,
   codigoCliente VARCHAR(100) NULL,
   nombreCliente VARCHAR(100) NULL,
   tipoCliente VARCHAR(100) NULL,
   direccionCliente VARCHAR(150) NULL,
-  numeroCliente INT NULL,
+  numeroCliente VARCHAR(100) NULL,
   codVendedor VARCHAR(100) NULL,
   nombreVendedor VARCHAR(100) NULL,
-  vacacionista TINYINT NULL,
+  vacacionista VARCHAR(100) NULL,
   codProducto VARCHAR(100) NULL,
   nombreProducto VARCHAR(100) NULL,
   marcaProducto VARCHAR(100) NULL,
@@ -54,10 +51,9 @@ CREATE TABLE Venta (
   codSucursal VARCHAR(100) NULL,
   nombreSucursal VARCHAR(100) NULL,
   direccionSucursal VARCHAR(150) NULL,
-  eegion VARCHAR(100) NULL,
+  region VARCHAR(100) NULL,
   departamento VARCHAR(100) NULL,
   unidades VARCHAR(100) NULL,
-  precioUnitario DECIMAL (6,2) NULL,
-	PRIMARY KEY (idVenta)
+  precioUnitario VARCHAR(100) NULL
 );
 GO
