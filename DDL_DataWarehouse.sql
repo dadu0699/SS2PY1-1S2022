@@ -64,17 +64,17 @@ CREATE TABLE Proveedor(
 ----COMPRA TABLE
 CREATE TABLE Compra(
   compraID INT IDENTITY (1,1) NOT NULL,
-	tiempoID INT NOT NULL,
-	proveedorID INT NOT NULL,
-	productoID INT NOT NULL,
-	sucursalID INT NOT NULL,
-	unidades INT NOT NULL,
-	costoUnitario DECIMAL (6,2) NOT NULL,
-	FOREIGN KEY (tiempoID) REFERENCES Tiempo(tiempoID),
-	FOREIGN KEY (proveedorID) REFERENCES Proveedor(proveedorID),
-	FOREIGN KEY (productoID) REFERENCES Producto(productoID),
-	FOREIGN KEY (sucursalID) REFERENCES Sucursal(sucursalID),
-	PRIMARY KEY (compraID)
+  tiempoID INT NOT NULL,
+  proveedorID INT NOT NULL,
+  productoID INT NOT NULL,
+  sucursalID INT NOT NULL,
+  unidades INT NOT NULL,
+  costoUnitario DECIMAL (6,2) NOT NULL,
+  FOREIGN KEY (tiempoID) REFERENCES Tiempo(tiempoID),
+  FOREIGN KEY (proveedorID) REFERENCES Proveedor(proveedorID),
+  FOREIGN KEY (productoID) REFERENCES Producto(productoID),
+  FOREIGN KEY (sucursalID) REFERENCES Sucursal(sucursalID),
+  PRIMARY KEY (compraID)
 );
 ----VENDEDOR TABLE
 CREATE TABLE Vendedor(
@@ -96,18 +96,18 @@ CREATE TABLE Cliente(
 ----VENTA TABLE
 CREATE TABLE Venta(
   ventaID INT IDENTITY (1,1) NOT NULL,
-	tiempoID INT NOT NULL,
-	clienteID INT NOT NULL,
-	vendedorID INT NOT NULL,
-	productoID INT NOT NULL,
-	sucursalID INT NOT NULL,
-	unidades INT NOT NULL,
-	precioUnitario DECIMAL (6,2) NOT NULL,
-	FOREIGN KEY (tiempoID) REFERENCES Tiempo(tiempoID),
-	FOREIGN KEY (clienteID) REFERENCES Cliente(clienteID),
-	FOREIGN KEY (vendedorID) REFERENCES Vendedor(vendedorID),
-	FOREIGN KEY (productoID) REFERENCES Producto(productoID),
-	FOREIGN KEY (sucursalID) REFERENCES Sucursal(sucursalID),
-	PRIMARY KEY (ventaID)
+  tiempoID INT NOT NULL,
+  clienteID INT NOT NULL,
+  vendedorID INT NOT NULL,
+  productoID INT NOT NULL,
+  sucursalID INT NOT NULL,
+  unidades INT NOT NULL,
+  precioUnitario DECIMAL (6,2) NOT NULL,
+  FOREIGN KEY (tiempoID) REFERENCES Tiempo(tiempoID),
+  FOREIGN KEY (clienteID) REFERENCES Cliente(clienteID),
+  FOREIGN KEY (vendedorID) REFERENCES Vendedor(vendedorID),
+  FOREIGN KEY (productoID) REFERENCES Producto(productoID),
+  FOREIGN KEY (sucursalID) REFERENCES Sucursal(sucursalID),
+  PRIMARY KEY (ventaID)
 );
 GO
