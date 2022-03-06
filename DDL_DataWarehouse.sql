@@ -26,9 +26,9 @@ GO
 ----TIEMPO TABLE
 CREATE TABLE Tiempo(
   tiempoID INT IDENTITY (1,1) NOT NULL,
-  dia VARCHAR (100) NOT NULL,
-  mes VARCHAR (100) NOT NULL,
-  anio VARCHAR (100) NOT NULL,
+  dia INT NOT NULL,
+  mes INT NOT NULL,
+  anio INT NOT NULL,
   fecha DATE NOT NULL,
   PRIMARY KEY (tiempoID)
 );
@@ -38,7 +38,7 @@ CREATE TABLE Producto(
   codigo VARCHAR (100) NOT NULL,
   nombre VARCHAR (100) NOT NULL,
   marca VARCHAR (100) NOT NULL,
-  categoria DATE NOT NULL,
+  categoria VARCHAR (100) NOT NULL,
   PRIMARY KEY (productoID)
 );
 ----SUCURSAL TABLE
@@ -57,8 +57,8 @@ CREATE TABLE Proveedor(
   codigo VARCHAR (100) NOT NULL,
   nombre VARCHAR (100) NOT NULL,
   direccion VARCHAR (100) NOT NULL,
-  numero VARCHAR (100) NOT NULL,
-  web VARCHAR (100) NOT NULL,
+  numero INT NOT NULL,
+  web TINYINT NOT NULL,
   PRIMARY KEY (proveedorID)
 );
 ----COMPRA TABLE
@@ -90,7 +90,7 @@ CREATE TABLE Cliente(
   nombre VARCHAR (100) NOT NULL,
   tipoCliente TINYINT NOT NULL,
   direccion VARCHAR (100) NOT NULL,
-  numero VARCHAR (100) NOT NULL,
+  numero INT NOT NULL,
   PRIMARY KEY (clienteID)
 );
 ----VENTA TABLE
