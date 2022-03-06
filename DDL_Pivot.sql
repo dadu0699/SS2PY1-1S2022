@@ -15,7 +15,7 @@ GO
 --CREATION OF TABLES
 ----Compra TABLE
 CREATE TABLE Compra (
-  fecha VARCHAR(100) NULL,
+  fecha DATE NULL,
   codProveedor VARCHAR(100) NULL,
   nombreProveedor VARCHAR(100) NULL,
   direccionProveedor VARCHAR(150) NULL,
@@ -35,7 +35,7 @@ CREATE TABLE Compra (
 );
 ----Ventas TABLE
 CREATE TABLE Venta (
-  fecha VARCHAR(100) NULL,
+  fecha DATE NULL,
   codigoCliente VARCHAR(100) NULL,
   nombreCliente VARCHAR(100) NULL,
   tipoCliente VARCHAR(100) NULL,
