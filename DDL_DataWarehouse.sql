@@ -46,7 +46,7 @@ CREATE TABLE Sucursal(
   sucursalID INT IDENTITY (1,1) NOT NULL,
   codigo VARCHAR (100) NOT NULL,
   nombre VARCHAR (100) NOT NULL,
-  direccion VARCHAR (100) NOT NULL,
+  direccion VARCHAR (150) NOT NULL,
   region VARCHAR (100) NOT NULL,
   departamento VARCHAR (100) NOT NULL,
   PRIMARY KEY (sucursalID)
@@ -56,7 +56,7 @@ CREATE TABLE Proveedor(
   proveedorID INT IDENTITY (1,1) NOT NULL,
   codigo VARCHAR (100) NOT NULL,
   nombre VARCHAR (100) NOT NULL,
-  direccion VARCHAR (100) NOT NULL,
+  direccion VARCHAR (150) NOT NULL,
   numero INT NOT NULL,
   web TINYINT NOT NULL,
   PRIMARY KEY (proveedorID)
@@ -89,7 +89,7 @@ CREATE TABLE Cliente(
   codigo VARCHAR (100) NOT NULL,
   nombre VARCHAR (100) NOT NULL,
   tipoCliente TINYINT NOT NULL,
-  direccion VARCHAR (100) NOT NULL,
+  direccion VARCHAR (150) NOT NULL,
   numero INT NOT NULL,
   PRIMARY KEY (clienteID)
 );
