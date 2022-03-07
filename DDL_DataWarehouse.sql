@@ -79,6 +79,7 @@ CREATE TABLE Compra(
 ----VENDEDOR TABLE
 CREATE TABLE Vendedor(
   vendedorID INT IDENTITY (1,1) NOT NULL,
+  codigo VARCHAR (100) NOT NULL,
   nombre VARCHAR (100) NOT NULL,
   vacacionista TINYINT NOT NULL,
   PRIMARY KEY (vendedorID)
@@ -88,7 +89,7 @@ CREATE TABLE Cliente(
   clienteID INT IDENTITY (1,1) NOT NULL,
   codigo VARCHAR (100) NOT NULL,
   nombre VARCHAR (100) NOT NULL,
-  tipoCliente TINYINT NOT NULL,
+  tipoCliente VARCHAR (100) NOT NULL,
   direccion VARCHAR (150) NOT NULL,
   numero INT NOT NULL,
   PRIMARY KEY (clienteID)
