@@ -1,11 +1,37 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f4e5173d-8f77-456e-b6e8-b41f1f4cf193" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="83dd871c-7b3f-403a-8673-a8d4e59fad9a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimensionSucursal</ID>
   <Name>DimensionSucursal</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2581" scrolltop="-6998" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8202" y="17568" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sucursal" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Sucursal" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2581</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-6998</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -40,49 +66,49 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ba6e629f-de2d-48c6-9e14-fba83ecfce90">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b309e24d-be6c-4304-91c4-5feb794a08eb">
     <DataSourceViewID>VistaSeminariodos201801266</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8905b416-0397-441f-bda6-07ad25828817">
+  <ErrorConfiguration dwd:design-time-name="0a5416fa-9367-4607-98a7-7b8738a71786">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="791f12b0-a409-43c3-b1f4-2540758646aa">
+    <Attribute dwd:design-time-name="42a76ec0-86d7-44d6-bb8d-28bb775108b8">
       <ID>Sucursal ID</ID>
       <Name>Sucursal ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6f1c93c1-3bb6-4fa0-9070-f665bd98c81e">
+        <KeyColumn dwd:design-time-name="5bf139a0-8c65-4a5c-ab02-8a09b117fe8c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c23078d0-c49f-4ae3-86e9-a40c8a217051">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79aa72d9-fb2f-4029-a071-9e80436c1c54">
             <TableID>dbo_Sucursal</TableID>
             <ColumnID>sucursalID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="919ba2ee-c7a3-4d08-841d-ebff2bef2e7d">
+      <NameColumn dwd:design-time-name="c673a702-5523-45f0-9908-88e47509ce0f">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="5b234b25-c4b6-4317-b6c0-d94b5e55868c">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e0d5a934-eee5-43d2-b76f-0ba4b4bcbce5">
           <TableID>dbo_Sucursal</TableID>
           <ColumnID>nombre</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="613b8459-db47-4520-8600-895a8d7c9bec">
+        <AttributeRelationship dwd:design-time-name="d95ff7a3-efec-4eed-a1ac-d58a63890002">
           <AttributeID>Direccion</AttributeID>
           <Name>Direccion</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e6657ea2-a27b-4108-ab1b-a7fd736b9569">
+        <AttributeRelationship dwd:design-time-name="86969ea9-7379-40a9-a953-df814a843e55">
           <AttributeID>Region</AttributeID>
           <Name>Region</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="25f7704a-4951-4e62-b775-e188645decb1">
+        <AttributeRelationship dwd:design-time-name="efdfc0ca-f614-4760-b274-f9755769f8af">
           <AttributeID>Departamento</AttributeID>
           <Name>Departamento</Name>
         </AttributeRelationship>
@@ -90,14 +116,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="84c99676-aeea-478b-9e7c-a9972c21b598">
+    <Attribute dwd:design-time-name="dfa3e109-1d1e-4c2b-bca8-d17b8bceacb8">
       <ID>Direccion</ID>
       <Name>Direccion</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="45b5ffc4-5e9d-4e49-8ae1-fbe37e1a4d19">
+        <KeyColumn dwd:design-time-name="70d41b4d-baad-4c04-8833-45f091489ce6">
           <DataType>WChar</DataType>
           <DataSize>150</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="df94d17a-69aa-48c2-9734-852ec23e3c61">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8fd86d6d-e1d9-4c39-a4b8-a77f952a9c59">
             <TableID>dbo_Sucursal</TableID>
             <ColumnID>direccion</ColumnID>
           </Source>
@@ -107,14 +133,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="35535a7b-1ebe-4be5-bc32-f440a74a9ac6">
+    <Attribute dwd:design-time-name="f13a1d3a-ec8b-4ff2-aacc-111ceab50b48">
       <ID>Region</ID>
       <Name>Region</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="57c59948-f4ea-4167-b966-0b79e5ead74a">
+        <KeyColumn dwd:design-time-name="0e222788-cf95-41b4-9c87-b7e094b16351">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd1dde16-cb74-4819-89a4-3c23385ae442">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4aae810d-d7a9-4dd4-96bf-41f28a0ae2a2">
             <TableID>dbo_Sucursal</TableID>
             <ColumnID>region</ColumnID>
           </Source>
@@ -124,14 +150,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9df031d5-8dfc-4b12-9547-19a50a4de772">
+    <Attribute dwd:design-time-name="b58dc9f6-63f5-4833-9067-00cca00f4e70">
       <ID>Departamento</ID>
       <Name>Departamento</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="445b66df-4155-4319-90b9-b9898afb6ad0">
+        <KeyColumn dwd:design-time-name="60e8956a-1f7b-42ee-aeee-92a5aef8d36d">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7237094d-28b1-43d6-b18a-c2b822d36b13">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b66334d1-b9ab-4479-a634-d8ef1fd3306f">
             <TableID>dbo_Sucursal</TableID>
             <ColumnID>departamento</ColumnID>
           </Source>
@@ -142,5 +168,39 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="4f30f133-6ee9-48f1-ae37-5e87bec575dc">
+      <ID>Jerarquía</ID>
+      <Name>JerarquíaDepartamento</Name>
+      <Levels>
+        <Level dwd:design-time-name="4d201468-f2cb-4e18-83e6-c0090fb0fa05">
+          <ID>Departamento</ID>
+          <Name>Departamento</Name>
+          <SourceAttributeID>Departamento</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8901e02a-94d9-4f3b-9813-c2d627cbed57">
+          <ID>Sucursal ID</ID>
+          <Name>DepartamentoSucursal</Name>
+          <SourceAttributeID>Sucursal ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="973df059-5cb5-4f05-ac1b-3d7ac407541a">
+      <ID>Jerarquía 1</ID>
+      <Name>JerarquíaRegion</Name>
+      <Levels>
+        <Level dwd:design-time-name="fd0b22c6-d87d-45f9-aeb3-a4cb6829175b">
+          <ID>Region</ID>
+          <Name>Region</Name>
+          <SourceAttributeID>Region</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fbfa833d-2982-4058-a42d-578a56ff6ad9">
+          <ID>Sucursal ID</ID>
+          <Name>RegionSucursal</Name>
+          <SourceAttributeID>Sucursal ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
