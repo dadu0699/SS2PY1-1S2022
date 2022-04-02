@@ -27,6 +27,26 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>CuboColumnarCompras.cube</Name>
+      <FullPath>CuboColumnarCompras.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CuboColumnarCompras.partitions</Name>
+          <FullPath>CuboColumnarCompras.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CuboColumnarVentas.cube</Name>
+      <FullPath>CuboColumnarVentas.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CuboColumnarVentas.partitions</Name>
+          <FullPath>CuboColumnarVentas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -50,8 +70,32 @@
       <FullPath>DimensionTiempo.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Vendedor.dim</Name>
-      <FullPath>Vendedor.dim</FullPath>
+      <Name>DimensionVendedor.dim</Name>
+      <FullPath>DimensionVendedor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimensionColumnarCliente.dim</Name>
+      <FullPath>DimensionColumnarCliente.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimensionColumnarProducto.dim</Name>
+      <FullPath>DimensionColumnarProducto.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimensionColumnarProveedor.dim</Name>
+      <FullPath>DimensionColumnarProveedor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimensionColumnarSucursal.dim</Name>
+      <FullPath>DimensionColumnarSucursal.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimensionColumnarTiempo.dim</Name>
+      <FullPath>DimensionColumnarTiempo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimensionColumnarVendedor.dim</Name>
+      <FullPath>DimensionColumnarVendedor.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -59,11 +103,19 @@
       <Name>Seminariodos201801266.ds</Name>
       <FullPath>Seminariodos201801266.ds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>SeminariodosColumnar201801266.ds</Name>
+      <FullPath>SeminariodosColumnar201801266.ds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
       <Name>VistaSeminariodos201801266.dsv</Name>
       <FullPath>VistaSeminariodos201801266.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VistaSeminariodosColumnar201801266.dsv</Name>
+      <FullPath>VistaSeminariodosColumnar201801266.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -76,11 +128,21 @@
             <Name>Seminariodos201801266</Name>
             <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=TR-RED;Integrated Security=SSPI;Initial Catalog=seminariodos201801266</Value>
           </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seminariodos Columnar201801266</Id>
+            <Name>Seminariodos Columnar201801266</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=TR-RED;Integrated Security=SSPI;Initial Catalog=seminariodosColumnar201801266</Value>
+          </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>Seminariodos201801266</Id>
             <Name>Seminariodos201801266</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seminariodos Columnar201801266</Id>
+            <Name>Seminariodos Columnar201801266</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>

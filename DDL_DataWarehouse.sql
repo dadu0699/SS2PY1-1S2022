@@ -13,13 +13,13 @@ USE seminariodos201801266;
 GO
 -------------------------------------------------------------------------------
 --COLUMNAR DATABASE CREATION
-IF(DB_ID('semniariodosColumnar201801266') IS NOT NULL)
-DROP DATABASE semniariodosColumnar201801266;
+IF(DB_ID('seminariodosColumnar201801266') IS NOT NULL)
+DROP DATABASE seminariodosColumnar201801266;
 
-CREATE DATABASE semniariodosColumnar201801266;
+CREATE DATABASE seminariodosColumnar201801266;
 GO
 
-USE semniariodosColumnar201801266;
+USE seminariodosColumnar201801266;
 GO
 -------------------------------------------------------------------------------
 --CREATION OF TABLES

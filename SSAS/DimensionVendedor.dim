@@ -1,8 +1,8 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c7d89e88-5f8f-4b52-8078-01d49c587532" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="317d19ee-1204-47f4-8cea-517503591089" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Vendedor</ID>
-  <Name>Vendedor</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Name>DimensionVendedor</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
@@ -40,41 +40,41 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7ec44aee-1b3d-495b-b716-b6ea9064405f">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="81ee3490-08fb-4fc0-b612-3cb96bff6b6b">
     <DataSourceViewID>VistaSeminariodos201801266</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="56794d7f-0829-4881-88ca-3e4f4d0d1b22">
+  <ErrorConfiguration dwd:design-time-name="8c973a58-8ad4-4490-b727-e5196b1f364f">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="787aa5d8-ade2-4a36-afe3-0f9c238fef43">
+    <Attribute dwd:design-time-name="e3e12828-9e04-4792-8dbc-3a8d19e3016c">
       <ID>Vendedor ID</ID>
       <Name>Vendedor ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="51d77878-034a-4827-9b71-a801819cd7c6">
+        <KeyColumn dwd:design-time-name="bd175efa-2d8f-48b9-94bd-c03e1c71b983">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="24dbaf13-ba0e-4ee5-a3be-dd91b5556d7a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e4ef197-3174-49b6-85fc-daa061123777">
             <TableID>dbo_Vendedor</TableID>
             <ColumnID>vendedorID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="27266460-59a8-41f7-b51f-cdaee2013067">
+      <NameColumn dwd:design-time-name="c23eb6c3-ba2b-4828-9bea-2ccd209b6de2">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="cec56f47-d0a1-4627-b7bd-37fedc173379">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="247cde4b-8000-46e9-8611-b50698be2c84">
           <TableID>dbo_Vendedor</TableID>
           <ColumnID>nombre</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="1ce6a1be-f593-4136-be94-f8331cc8424e">
+        <AttributeRelationship dwd:design-time-name="a2259c21-d50d-47eb-9a45-d9952da2ba99">
           <AttributeID>Vacacionista</AttributeID>
           <Name>Vacacionista</Name>
         </AttributeRelationship>
@@ -82,13 +82,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="936ebc73-ace7-417f-86e0-af305bdbf45e">
+    <Attribute dwd:design-time-name="7f036ed0-0943-4b92-b763-b766ca4a9e44">
       <ID>Vacacionista</ID>
       <Name>Vacacionista</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a839a497-005f-478b-842f-973029db80ad">
+        <KeyColumn dwd:design-time-name="1a8e245e-af14-4d32-8b44-e1faaaac09a2">
           <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6633d8ee-c6fb-4ad7-85d4-3e152de0175f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7dfac380-3fa3-4c26-877f-ef9ce9caf0d8">
             <TableID>dbo_Vendedor</TableID>
             <ColumnID>vacacionista</ColumnID>
           </Source>
