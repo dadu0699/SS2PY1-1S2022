@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="176"
-  DTS:VersionGUID="{F64D0D9E-75B7-4D59-A8BE-801F8587E3BB}">
+  DTS:VersionBuild="177"
+  DTS:VersionGUID="{3E88F056-B27F-409E-9508-76C4462BB8F7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC/wtFMZxTAlPmpxhQvJ9E4GIy48VsAvNZoYncdwzyJrgAAAAAOgAAAAAIAACAAAAAG9AkmcAEbltCoTQtJB/juseOw/wkLhzrDbrwfd5xOUjAAAAAuy/5g4vadA/iV7EQyGMMQXq0SDdz7CkndlRFHjM4RHjnVLysARfssdU/lFQewl4lAAAAAuauZGlGt541GV/wJg8O8NQlgJtpUYBpWAy2uwxMETl9/Q5PTrbUlSfgE7DtYhYxxkA44Ma3Pp4vveUrb09gczA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA+2QFmcGq0MJgUfZuDN73nwK98/Ce9sdYuZW5wn4DjWAAAAAAOgAAAAAIAACAAAAAYqydaCNw+9i0ipMry7zbiIkMzNJwf0cO54I1xKD/13TAAAABqmcA8zdR21tvFCQAD56n4GqDBV5BCR00Ceke+2u0cGZ4LoxTyeP+Ex5EjnIxZaCZAAAAAGqjHUmEEICcateDAPlzLMzPwhT/Ha232qSbo3m9+w5M/mq66q3VXB9G2owBCTO6E25Fdbf9vu11fhWhHDizpWw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -44,7 +44,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACY3Hf/dGJX9M+spO57tq7C9ehCmDKReIABE+dpegTAlQAAAAAOgAAAAAIAACAAAACGfRK39xFR+xhbp4f1Yy8OLdF/Ur5z++tQrbDcB7WLFTAAAAAnywCp5mzBB7KAGEx/YtvcJOIkQdLFlg/R+pBNktZxP3a18iGx0N2FiWnSOAXUgyFAAAAAusQY1Tn+ipqPSbBhY6pEb1OBLYCfIY8atKGuk3Dsa1RPQCDRPdL/sdK8iU0svUeF5yAZ9Fs91EYxYf0rdy/UWg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD2Jp7673nQF47iDZy6MwxQI2oxOrnaqmi5phrZEEvhewAAAAAOgAAAAAIAACAAAAAVKNNDDNnF0iR/aAiCupBBaWEEfQxzBPq/20tEuiogxjAAAABri3utrbDT5nOvcqv2efd+VwBywCeLF7ByLwJqAuhlAwoXmTfEoBw5U9uVDg8WiQ1AAAAARK9jsZ4OW+r6semf1x9l6lbB/f638lH/Kh4ANBE3/ozeGu6yHsE+Ydlc+fl93zg42x9vgGZB8L+6/OGqGIlmkA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -55,11 +55,11 @@
       DTS:ObjectName=".,1433.semniariodosColumnar201801266.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=192.168.0.12;User ID=dadu;Initial Catalog=semniariodosColumnar201801266;Application Name=SSIS-Package-{409E287E-C4A9-4B4E-BEAC-DE577E71F88B}.,1433.semniariodosColumnar201801266.sa;">
+          DTS:ConnectionString="Data Source=192.168.0.12;User ID=dadu;Initial Catalog=seminariodosColumnar201801266;Application Name=SSIS-Package-{409E287E-C4A9-4B4E-BEAC-DE577E71F88B}.,1433.semniariodosColumnar201801266.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADW+w2Ojr2uZOedO6FcUWvtxt8GmQB6zAwsf53w91pE3wAAAAAOgAAAAAIAACAAAADaBoFoeczqk0CoT8P507ycSPJkYNIXOEQAOeN1GjtdLTAAAADP/0JiZ4hDm4YdTmOJaJ2heh3vU8cplwFWZKN7S9fi7lounV6+/sB2+l3MLAtANNZAAAAAX/3rxLV6OP99Luqunw+brpmkSR7c19kSJ+pJdCSqw14mCZixf0gN0gr+Aqh7Qt1lN/GCf7+Bb6d8f36KP7hdgQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbKfd6OnklVjDv0V1KXib3CtEUQt2VdhEXd07MGe4OfwAAAAAOgAAAAAIAACAAAAAa1wUPAIcY2eVUQRewad6Q9ZP3d96ErBEp6zCq7jETojAAAAAXmCI77RDLp0CUsk6RSQq0TEA+u2wJvGvwW4i1kxezUsPWlG1gHec+141KT5BDSHBAAAAAm7e2PMOvrX3E9I7GPXbQM8BnqDUJ/FMtNNX5Hg6Cz0F1IJeQ8VR4B8vItSceVqWD72/H2LcNb7ombRT/2mdhoQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -74,7 +74,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADtkHXQlb442pDGW0rLE2fo0ndM+voSkfBo3BA9KibRPQAAAAAOgAAAAAIAACAAAACQYBuTVFjly5+xGtFoBAe64nfQf0hc+CTv2/VZj5H/ljAAAAAUnktTtwZWJptTSR1UKPMixdBnft7hWjSsAeoRkMsejii9ZzVhlaUfPv0g49RCHDBAAAAAWqocab02ldBFciYd7kmngLZohNoC+/LXRaucwBl4hNZxJ/WNYRtWlgKtrIv/q8VAigOWAfptJY7xJxO4Q+dO0g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAsVTC74E4KotCr+0oKt6Qi61fFvdQPYPXwN501S13c2AAAAAAOgAAAAAIAACAAAADOeTwx3RYdxkp6AkmniU1QxLIP8cy6Yty4gNpjLWi6kDAAAAB+XUQ8wstmpzyT95QZD3F3seJa8rSMRuErXwn1Vb9sqOi7zAMWeXDyJZqVoqBuyC5AAAAAN6LjGb4YX5QJQto75Q2NcGxYBBERr5DZ9kMUwBluhLRIaquEHYEpiO7y8SZbVPu+bn8qSujxFcpw3fuzbgtQ4g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -91,7 +91,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC+THf68WSY95KqaZlnW5pXKqFYhndaJryEwWlVQTNCxwAAAAAOgAAAAAIAACAAAACnRgxN08/ot943OQGhH/JlKz6THufeWIqHcaZSKmL3fDAAAABMEUo23w5VeXGW1q9e0VyC7d6StkkqL4wM2R4AWPbZnirbWIetmrLX4dw8cQ9dB7hAAAAAjFoQGabB62QDy5P1rAW9OOg8f07pVvFYvU8X/zS222ffbbhX17NvSoJWVEga7IBYqWbwPFdTfhjMYQ36RJiA4w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANxg1HV2h2U+lyTO8S6A6RwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD5m0Zx4a7uBgCgqIKkXBDuSLRD78S+Ok9B4FsyYioU9AAAAAAOgAAAAAIAACAAAACgTQt140sQpURm1zs+6TstAy2n82buQ627p2oqSXOjszAAAADZvPXSSjJorgfZBzd3GQnWZMXduiSQS+XBxMkA6lPTcmQ5DZKsJHrG7zlJllGNfuZAAAAAeEsAoow5emP3S7McStkwdAuv0S2KU7UYIOMrXchhwqcyNhMRmh1jbDOUTH76u/NbtxWK5T45atVaDCK/W1i5BQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5674,14 +5674,14 @@
               startId="Package\Data Flow Task Compra\Multicast.Outputs[Multicast Output 1]" />
             <path
               refId="Package\Data Flow Task Compra.Paths[Multicast Output 24]"
-              endId="Package\Data Flow Task Compra\TIEMPO COLUMNAR.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Data Flow Task Compra\Data Conversion.Inputs[Data Conversion Input]"
               name="Multicast Output 2"
-              startId="Package\Data Flow Task Compra\Multicast Fecha.Outputs[Multicast Output 2]" />
+              startId="Package\Data Flow Task Compra\Multicast.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Data Flow Task Compra.Paths[Multicast Output 23]"
-              endId="Package\Data Flow Task Compra\PROVEEDOR COLUMNAR.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Data Flow Task Compra\PRODUCTO COLUMNAR.Inputs[Entrada de destino de ADO NET]"
               name="Multicast Output 2"
-              startId="Package\Data Flow Task Compra\Multicast Proveedor.Outputs[Multicast Output 2]" />
+              startId="Package\Data Flow Task Compra\Multicast Producto.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Data Flow Task Compra.Paths[Multicast Output 22]"
               endId="Package\Data Flow Task Compra\SUCURSAL COLUMNAR.Inputs[Entrada de destino de ADO NET]"
@@ -5689,14 +5689,14 @@
               startId="Package\Data Flow Task Compra\Multicast Sucursal.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Data Flow Task Compra.Paths[Multicast Output 21]"
-              endId="Package\Data Flow Task Compra\PRODUCTO COLUMNAR.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Data Flow Task Compra\PROVEEDOR COLUMNAR.Inputs[Entrada de destino de ADO NET]"
               name="Multicast Output 2"
-              startId="Package\Data Flow Task Compra\Multicast Producto.Outputs[Multicast Output 2]" />
+              startId="Package\Data Flow Task Compra\Multicast Proveedor.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Data Flow Task Compra.Paths[Multicast Output 2]"
-              endId="Package\Data Flow Task Compra\Data Conversion.Inputs[Data Conversion Input]"
+              endId="Package\Data Flow Task Compra\TIEMPO COLUMNAR.Inputs[Entrada de destino de ADO NET]"
               name="Multicast Output 2"
-              startId="Package\Data Flow Task Compra\Multicast.Outputs[Multicast Output 2]" />
+              startId="Package\Data Flow Task Compra\Multicast Fecha.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Data Flow Task Compra.Paths[Multicast Output 3]"
               endId="Package\Data Flow Task Compra\Conditional Split Sucursal.Inputs[Conditional Split Input]"
@@ -17844,29 +17844,29 @@ where [refTable].[codigo] = ?</property>
               startId="Package\Data Flow Task Venta\Derived Column Fecha.Outputs[Derived Column Output]" />
             <path
               refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output3]"
-              endId="Package\Data Flow Task Venta\Multicast Fecha.Inputs[Multicast Input 1]"
-              name="Lookup No Match Output"
-              startId="Package\Data Flow Task Venta\Lookup Fecha.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output2]"
-              endId="Package\Data Flow Task Venta\Multicast Producto.Inputs[Multicast Input 1]"
-              name="Lookup No Match Output"
-              startId="Package\Data Flow Task Venta\Lookup Producto.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output4]"
-              endId="Package\Data Flow Task Venta\Multicast Vendedor.Inputs[Multicast Input 1]"
-              name="Lookup No Match Output"
-              startId="Package\Data Flow Task Venta\Lookup Vendedor.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output]"
               endId="Package\Data Flow Task Venta\Multicast Cliente.Inputs[Multicast Input 1]"
               name="Lookup No Match Output"
               startId="Package\Data Flow Task Venta\Lookup Cliente.Outputs[Lookup No Match Output]" />
             <path
-              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output1]"
+              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output2]"
+              endId="Package\Data Flow Task Venta\Multicast Vendedor.Inputs[Multicast Input 1]"
+              name="Lookup No Match Output"
+              startId="Package\Data Flow Task Venta\Lookup Vendedor.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output4]"
               endId="Package\Data Flow Task Venta\Multicast Sucursal.Inputs[Multicast Input 1]"
               name="Lookup No Match Output"
               startId="Package\Data Flow Task Venta\Lookup Sucursal.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output]"
+              endId="Package\Data Flow Task Venta\Multicast Fecha.Inputs[Multicast Input 1]"
+              name="Lookup No Match Output"
+              startId="Package\Data Flow Task Venta\Lookup Fecha.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Data Flow Task Venta.Paths[Lookup No Match Output1]"
+              endId="Package\Data Flow Task Venta\Multicast Producto.Inputs[Multicast Input 1]"
+              name="Lookup No Match Output"
+              startId="Package\Data Flow Task Venta\Lookup Producto.Outputs[Lookup No Match Output]" />
             <path
               refId="Package\Data Flow Task Venta.Paths[Multicast Output 1]"
               endId="Package\Data Flow Task Venta\TIEMPO COLUMNAR.Inputs[Entrada de destino de ADO NET]"
@@ -17899,34 +17899,34 @@ where [refTable].[codigo] = ?</property>
               startId="Package\Data Flow Task Venta\Multicast Cliente.Outputs[Multicast Output 1]" />
             <path
               refId="Package\Data Flow Task Venta.Paths[Multicast Output 24]"
-              endId="Package\Data Flow Task Venta\VENDEDOR COLUMNAR.Inputs[Entrada de destino de ADO NET]"
-              name="Multicast Output 2"
-              startId="Package\Data Flow Task Venta\Multicast Vendedor.Outputs[Multicast Output 2]" />
-            <path
-              refId="Package\Data Flow Task Venta.Paths[Multicast Output 25]"
-              endId="Package\Data Flow Task Venta\CLIENTE COLUMNAR.Inputs[Entrada de destino de ADO NET]"
-              name="Multicast Output 2"
-              startId="Package\Data Flow Task Venta\Multicast Cliente.Outputs[Multicast Output 2]" />
-            <path
-              refId="Package\Data Flow Task Venta.Paths[Multicast Output 23]"
-              endId="Package\Data Flow Task Venta\Data Conversion.Inputs[Data Conversion Input]"
-              name="Multicast Output 2"
-              startId="Package\Data Flow Task Venta\Multicast.Outputs[Multicast Output 2]" />
-            <path
-              refId="Package\Data Flow Task Venta.Paths[Multicast Output 22]"
-              endId="Package\Data Flow Task Venta\SUCURSAL COLUMNAR.Inputs[Entrada de destino de ADO NET]"
-              name="Multicast Output 2"
-              startId="Package\Data Flow Task Venta\Multicast Sucursal.Outputs[Multicast Output 2]" />
-            <path
-              refId="Package\Data Flow Task Venta.Paths[Multicast Output 21]"
               endId="Package\Data Flow Task Venta\TIEMPO.Inputs[Entrada de destino de ADO NET]"
               name="Multicast Output 2"
               startId="Package\Data Flow Task Venta\Multicast Fecha.Outputs[Multicast Output 2]" />
             <path
-              refId="Package\Data Flow Task Venta.Paths[Multicast Output 2]"
+              refId="Package\Data Flow Task Venta.Paths[Multicast Output 25]"
               endId="Package\Data Flow Task Venta\PRODUCTO.Inputs[Entrada de destino de ADO NET]"
               name="Multicast Output 2"
               startId="Package\Data Flow Task Venta\Multicast Producto.Outputs[Multicast Output 2]" />
+            <path
+              refId="Package\Data Flow Task Venta.Paths[Multicast Output 23]"
+              endId="Package\Data Flow Task Venta\SUCURSAL COLUMNAR.Inputs[Entrada de destino de ADO NET]"
+              name="Multicast Output 2"
+              startId="Package\Data Flow Task Venta\Multicast Sucursal.Outputs[Multicast Output 2]" />
+            <path
+              refId="Package\Data Flow Task Venta.Paths[Multicast Output 22]"
+              endId="Package\Data Flow Task Venta\Data Conversion.Inputs[Data Conversion Input]"
+              name="Multicast Output 2"
+              startId="Package\Data Flow Task Venta\Multicast.Outputs[Multicast Output 2]" />
+            <path
+              refId="Package\Data Flow Task Venta.Paths[Multicast Output 21]"
+              endId="Package\Data Flow Task Venta\CLIENTE COLUMNAR.Inputs[Entrada de destino de ADO NET]"
+              name="Multicast Output 2"
+              startId="Package\Data Flow Task Venta\Multicast Cliente.Outputs[Multicast Output 2]" />
+            <path
+              refId="Package\Data Flow Task Venta.Paths[Multicast Output 2]"
+              endId="Package\Data Flow Task Venta\VENDEDOR COLUMNAR.Inputs[Entrada de destino de ADO NET]"
+              name="Multicast Output 2"
+              startId="Package\Data Flow Task Venta\Multicast Vendedor.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Data Flow Task Venta.Paths[Multicast Output 3]"
               endId="Package\Data Flow Task Venta\Conditional Split Sucursal.Inputs[Conditional Split Input]"
@@ -18072,14 +18072,35 @@ where [refTable].[codigo] = ?</property>
           Language="CSharp"
           ReadOnlyVariables="User::delimiter,User::errorsFolder,User::extensionPurchase,User::extensionSale,User::sourceData,User::temporaryTablePurchase,User::temporaryTableSale">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_564b1d832a104556a1635e7382eab425")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_564b1d832a104556a1635e7382eab425")]
+[assembly: AssemblyCopyright("Copyright @  2022")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -18200,34 +18221,91 @@ where [refTable].[codigo] = ?</property>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_564b1d832a104556a1635e7382eab425.Properties.Settings.get_Default():ST_564b1d832a104556a1635e7382eab425.Properties.Sett" +
-    "ings")]
-
-namespace ST_564b1d832a104556a1635e7382eab425.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+            Name="ST_564b1d832a104556a1635e7382eab425.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32931475-315B-447D-B15D-298C4F630A91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_564b1d832a104556a1635e7382eab425</RootNamespace>
+    <AssemblyName>ST_564b1d832a104556a1635e7382eab425</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -18451,121 +18529,43 @@ namespace ST_564b1d832a104556a1635e7382eab425
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="ST_564b1d832a104556a1635e7382eab425.csproj"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{32931475-315B-447D-B15D-298C4F630A91}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_564b1d832a104556a1635e7382eab425</RootNamespace>
-    <AssemblyName>ST_564b1d832a104556a1635e7382eab425</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_564b1d832a104556a1635e7382eab425.Properties.Settings.get_Default():ST_564b1d832a104556a1635e7382eab425.Properties.Sett" +
+    "ings")]
+
+namespace ST_564b1d832a104556a1635e7382eab425.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_564b1d832a104556a1635e7382eab425")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_564b1d832a104556a1635e7382eab425")]
-[assembly: AssemblyCopyright("Copyright @  2022")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -19563,7 +19563,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Compra.Paths[Multicast Output 24]"
+          Id="Package\Data Flow Task Compra.Paths[Multicast Output 2]"
           TopLeft="359.611111111111,576.722222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -19585,7 +19585,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Compra.Paths[Multicast Output 23]"
+          Id="Package\Data Flow Task Compra.Paths[Multicast Output 21]"
           TopLeft="1250.88401875902,685.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -19629,7 +19629,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Compra.Paths[Multicast Output 21]"
+          Id="Package\Data Flow Task Compra.Paths[Multicast Output 23]"
           TopLeft="675.656926406927,506.777777777778">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -19651,7 +19651,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Compra.Paths[Multicast Output 2]"
+          Id="Package\Data Flow Task Compra.Paths[Multicast Output 24]"
           TopLeft="755.555555555556,195.444444444444">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21307,7 +21307,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Multicast Output 21]"
+          Id="Package\Data Flow Task Venta.Paths[Multicast Output 24]"
           TopLeft="412.333333333333,670.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21341,7 +21341,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Multicast Output 2]"
+          Id="Package\Data Flow Task Venta.Paths[Multicast Output 25]"
           TopLeft="697.5,592">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21375,7 +21375,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Multicast Output 22]"
+          Id="Package\Data Flow Task Venta.Paths[Multicast Output 23]"
           TopLeft="993.369047619047,600.088383838385">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21397,7 +21397,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Multicast Output 23]"
+          Id="Package\Data Flow Task Venta.Paths[Multicast Output 22]"
           TopLeft="692,146">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21431,7 +21431,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Multicast Output 24]"
+          Id="Package\Data Flow Task Venta.Paths[Multicast Output 2]"
           TopLeft="1294.97222222222,587.138888888889">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21465,7 +21465,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Multicast Output 25]"
+          Id="Package\Data Flow Task Venta.Paths[Multicast Output 21]"
           TopLeft="1549.77777777778,585.333333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21679,7 +21679,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output2]"
+          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output1]"
           TopLeft="696.25,512">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21703,7 +21703,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output]"
+          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output3]"
           TopLeft="1527.44444444444,490.888888888889">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21727,7 +21727,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output1]"
+          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output4]"
           TopLeft="969.392857142857,514.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21751,7 +21751,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output4]"
+          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output2]"
           TopLeft="1267.98611111111,490.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -21775,7 +21775,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output3]"
+          Id="Package\Data Flow Task Venta.Paths[Lookup No Match Output]"
           TopLeft="437.75,583.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
