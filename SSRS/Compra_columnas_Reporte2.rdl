@@ -404,7 +404,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Total</Value>
+                                  <Value>Sub-Total</Value>
                                   <Style>
                                     <FontFamily>arial</FontFamily>
                                     <FontSize>12pt</FontSize>
