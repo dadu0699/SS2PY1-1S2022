@@ -56,9 +56,9 @@
     <Report Include="Compra_filas_Reporte1.rdl" />
     <Report Include="Compra_filas_Reporte2.rdl" />
     <Report Include="Compra_filas_Reporte3.rdl" />
-    <Report Include="Report1.rdl" />
     <Report Include="Venta_columnas_Reporte1.rdl" />
     <Report Include="Venta_columnas_Reporte2.rdl" />
+    <Report Include="Venta_columnas_Reporte3.rdl" />
     <Report Include="Venta_filas_Reporte1.rdl" />
     <Report Include="Venta_filas_Reporte2.rdl" />
     <Report Include="Venta_filas_Reporte3.rdl" />
